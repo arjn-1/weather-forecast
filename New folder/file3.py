@@ -5,7 +5,7 @@ import file1
 import file2
 import pushbullet
 
-p1 = pushbullet.Pushbullet("o.U3CuxNrpfLrEthDhKOiUfrBWsph8jOdG")
+p1 = pushbullet.Pushbullet("write your long and cool key")
 
 def body():
     a = file1.print_region()
@@ -23,5 +23,5 @@ def body():
     return li
 
 
-result = p1.push_sms(p1.devices[0], "6387385750", message="hi")
+result = p1.push_sms(p1.devices[0], "enter the phone number", message="hi")
 print(result)
