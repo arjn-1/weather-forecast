@@ -23,5 +23,5 @@ def body():
     return li
 
 
-result = p1.push_sms(p1.devices[0], "enter the phone number", message="hi")
+result = p1.push_sms(p1.devices[0], "enter the phone number", message=body() )
 print(result)
