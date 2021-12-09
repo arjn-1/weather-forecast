@@ -1,7 +1,7 @@
 import requests
 
 
-res = requests.get("http://api.weatherapi.com/v1/current.json?key=e956dc4cae4440268f9114930211809&q=" + "delhi")
+res = requests.get("http://api.weatherapi.com/v1/current.json?key=writeyourlongandcoolkey&q=" + "delhi")
 data = res.json()
 
 
